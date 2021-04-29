@@ -1,2 +1,2 @@
-# posgrad-fullstack
+# postgrad-fullstack
 Projects and exercises from my Postgraduate in Full-stack Web Development
