@@ -125,8 +125,11 @@ h6 {
 
 .post {
   margin-bottom: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #fafafa;
+  padding-bottom: 30px;
+}
+
+.post a:hover {
+  color: #7bb5e6;
 }
 
 .post-thumbnail {
@@ -135,6 +138,19 @@ h6 {
 
 .post-content {
   margin-top: 20px;
+}
+
+.post-footer {
+  padding: 20px 0;
+  margin: 40px 0 30px;
+  border-top: 1px solid #efeaea;
+  border-bottom: 1px solid #efeaea;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-footer .fa {
+  margin-right: 7px;
 }
 
 /* Utilities */
