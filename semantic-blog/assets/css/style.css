@@ -113,7 +113,7 @@ h6 {
 
 @media (min-width: 768px) {
   .main-content {
-    grid-template-columns: minmax(60%, 70%) minmax(auto, 30%);
+    grid-template-columns: minmax(60%, 75%) minmax(auto, 25%);
     grid-template-rows: auto;
   }
 }
@@ -151,6 +151,48 @@ h6 {
 
 .post-footer .fa {
   margin-right: 7px;
+}
+
+/* Sidebar */
+
+.sidebar input[type='text'] {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  color: #6d6a6a;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: inherit;
+  outline: 0;
+  position: relative;
+  vertical-align: top;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.widget {
+  margin: 0 0 40px;
+}
+
+.widget .widget-title {
+  text-transform: uppercase;
+}
+
+.widget ul {
+  padding: 0;
+}
+
+.widget ul li {
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+
+.widget a {
+  font-size: 13px;
+  color: #8b8b8b;
+}
+
+.widget a:hover {
+  color: #8ab378;
 }
 
 /* Utilities */
